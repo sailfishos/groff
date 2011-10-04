@@ -1,0 +1,8 @@
+--- a/mdate.sh
++++ b/mdate.sh
+@@ -2,4 +2,4 @@
+ 
+ # Print the modification date of $1 `nicely'.
+ 
+-perl -MPOSIX -le 'print strftime("%d %B %Y", localtime((stat $ARGV[0])[9]))' $1
++perl -MPOSIX -le 'print strftime("%B %Y", localtime((stat $ARGV[0])[9]))' $1
