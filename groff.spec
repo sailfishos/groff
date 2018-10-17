@@ -38,6 +38,7 @@ Patch25: groff-1.18.1.4-grofferpath.patch
 Patch26: groff-1.18.1.4-gcc4.3.0.patch
 Patch27: stamp.patch
 Patch28: groff-1.18.1.4-gcc6.patch
+Patch29: groff-1.18.1.4-fix_build_with_glibc228.patch
 
 Requires: /bin/mktemp
 Requires: /sbin/install-info
@@ -106,6 +107,7 @@ System display.
 %patch26 -p1 -b .gcc43
 %patch27 -p1
 %patch28 -p1
+%patch29 -p1
 
 for i in contrib/mm/{groff_mm,groff_mmse,mmroff}.man \
 		src/devices/grolbp/grolbp.man; do
