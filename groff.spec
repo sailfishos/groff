@@ -3,8 +3,8 @@
 
 Summary: A document formatting system
 Name:	groff
-Version: 1.18.1.4+git1
-Release: 0
+Version: 1.18.1.4
+Release: 15
 License: GPLv2 and GFDL
 Group: Applications/Publishing
 URL: http://groff.ffii.org
