@@ -118,7 +118,7 @@ done
 %build
 #PATH=$PATH:%{_prefix}/X11R6/bin
 #autoconf
-%configure --enable-multibyte
+%configure --enable-multibyte libdir=%{_libdir}
 make
 (cd doc && makeinfo groff.texinfo)
 %if %{with_x}
